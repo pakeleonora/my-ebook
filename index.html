@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipbook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="book">
+      <canvas id="pdf-canvas"></canvas>
+    </div>
+    <div class="controls">
+      <button id="prev-page">Назад</button>
+      <span id="page-info">Страница: <span id="current-page">1</span> / <span id="total-pages">0</span></span>
+      <button id="next-page">Вперед</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
